@@ -1,0 +1,20 @@
+server:
+  port: 9601
+
+env.cloudt.gateway.appKey: xxx
+env.cloudt.gateway.appSecret: xxx
+
+env.cloudt.gateway.baseUrl: http://geip-pre.glodon.com
+
+env.gect.cloudt.hostUrl: http://geip-pre.glodon.com:8088
+env.gect.registry.hostUrl: http://geip-pre.glodon.com/gcbp/api/meta-registry
+env.gect.cds.hostUrl: http://geip-pre.glodon.com/gcbp/api/common-data
+
+env.gect.service.ignoreActionHandlerNotFound: true
+env.gect.service.onlySendOpenEvent: true
+env.gect.streamsService.hostUrl: http://geip-pre.glodon.com/gcbp/api/stream-service
+
+env.redis.host: xxx
+env.redis.password: xxx
+env.redis.port: xxx
+env.redis.database: xxx
